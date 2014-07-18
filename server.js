@@ -1,2 +1,12 @@
 exports.main = require('./lib/main');
-exports.lib = require('./lib/worker');
+exports.workers = require('./lib/worker');
+exports.server = (function(){
+	var ret = {
+		workers: [],
+		start: function(port){
+			
+		}
+	};
+
+	return ret;
+})();
