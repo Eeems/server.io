@@ -1,0 +1,9 @@
+{
+	"mysql": {
+		"host": "localhost",
+		"user": "serverio",
+		"password": "serverio",
+		"database": "serverio"
+	},
+	"main": {}
+}
