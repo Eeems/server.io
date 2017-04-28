@@ -9,12 +9,12 @@
 	"main": "./index.js",
 	"dependencies": {
 		"toobusy": "*",
-		"mysql": "2.4.x",
-		"deasync": "0.0.x",
+		"mysql": "~2.13.0",
+		"deasync": "~0.1.9",
 		"node-static": "*"
 	},
 	"devDependencies": {
-		"tape": "2.x"
+		"tape": "^4.6.3"
 	},
 	"optionalDependencies": {},
 	"engines": {
